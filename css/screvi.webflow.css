@@ -98,9 +98,12 @@ p {
   font-weight: 500;
 }
 .logo-text.footer {
+  width: 45%;
   margin-top: 0px;
   margin-bottom: 19px;
   color: #e6eaed;
+  font-size: 24px;
+  line-height: 36px;
 }
 .navigation {
   position: fixed;
@@ -132,10 +135,13 @@ p {
 }
 .section.main {
   margin-top: 73px;
-  background-color: #007296;
-  background-image: url('../images/analytics-graphic2.png');
-  background-position: 0% 23%;
-  background-size: cover;
+  padding-bottom: 19px;
+  background-color: #127398;
+  background-image: url('../images/screvi-equipe-premiacao-.jpg');
+  background-position: 80% 50%;
+  background-size: 835px;
+  background-repeat: no-repeat;
+  opacity: 1;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px;
 }
@@ -157,7 +163,7 @@ p {
 .section.footer.copyright {
   padding-top: 19px;
   padding-bottom: 19px;
-  background-color: #1c1d1f;
+  background-color: #2b2c2e;
   color: #939596;
   font-size: 14px;
 }
@@ -167,7 +173,7 @@ p {
 .section.clients {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #06a;
+  background-color: #127398;
 }
 .section.press {
   padding-top: 29px;
@@ -199,8 +205,9 @@ p {
   font-weight: 300;
 }
 .footer-slogan {
+  margin-top: 53px;
   margin-bottom: 11px;
-  color: #939596;
+  color: white;
 }
 .social-icon {
   margin-right: 11px;
@@ -264,10 +271,10 @@ p {
   float: left;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
-  background-color: #5f6166;
+  background-color: #cf742e;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  color: #d5d8db;
+  color: white;
 }
 .newsletter-button:hover {
   background-color: #489fd9;
@@ -413,7 +420,7 @@ p {
   text-align: left;
 }
 .formulario {
-  margin-top: 36px;
+  margin-top: 0px;
   opacity: 1;
 }
 .conver {
@@ -429,6 +436,8 @@ p {
   color: rgba(0, 0, 0, 0.41);
 }
 .indisponivel {
+  overflow-x: visible;
+  overflow-y: visible;
   padding-top: 15px;
   padding-bottom: 21px;
   color: white;
@@ -446,9 +455,15 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   transform: translate(0px, 24px);
 }
 @media (max-width: 991px) {
+  h2 {
+    font-size: 25px;
+  }
   .button.in-pricing {
     font-size: 14px;
     line-height: 18px;
+  }
+  .logo-text.footer {
+    width: 56%;
   }
   .nav-link {
     padding: 18px 0px;
@@ -536,11 +551,45 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   }
 }
 @media (max-width: 479px) {
+  h2 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .logo-text.footer {
+    width: 100%;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .section {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .section.main {
+    padding-top: 120px;
+    padding-bottom: 27px;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
   .main-subtitle {
     font-size: 16px;
   }
+  .footer-slogan {
+    margin-top: 28px;
+  }
+  .newsletter-field {
+    width: 99%;
+  }
+  .newsletter-button {
+    width: 99%;
+  }
   .main-heading {
     font-size: 28px;
+  }
+  .section-subtitle {
+    font-size: 17px;
+  }
+  .small-features-row {
+    margin-top: 35px;
   }
   .client-logo {
     width: 33.33%;
@@ -548,8 +597,15 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   .press-logo {
     width: 28%;
   }
+  .small-text {
+    padding-left: 16px;
+  }
   .formulario {
     margin-top: 32px;
+  }
+  .mobile-container {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
