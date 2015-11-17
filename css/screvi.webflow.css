@@ -329,7 +329,7 @@ p {
   line-height: 44px;
 }
 .section-subtitle {
-  margin-bottom: 68px;
+  margin-bottom: 38px;
   font-size: 21px;
   line-height: 25px;
   font-weight: 300;
@@ -539,7 +539,7 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
     background-color: black;
   }
   .newsletter-button {
-    width: 42%;
+    width: 220px;
   }
   .section-subtitle {
     font-size: 17px;
@@ -701,5 +701,10 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   .cta {
     font-size: 31px;
   }
+}
+
+#form-cadastro iframe {
+  display: block;
+  margin: 0 auto;
 }
 
