@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Tue Oct 27 2015 14:50:23 GMT+0000 (UTC) -->
+<!-- Last Published: Mon Nov 16 2015 22:18:34 GMT+0000 (UTC) -->
 <html data-wf-site="562bf92010adfdf36147e47f" data-wf-page="562bf92185eb10f361f8103b" lang="pt">
 <head>
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
   <script>
     WebFont.load({
       google: {
-        families: ["Roboto:300,regular,500","Roboto Condensed:300,regular,700","Roboto Slab:300,regular,700","Arbutus Slab:regular"]
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto:300,regular,500","Roboto Condensed:300,regular,700","Roboto Slab:300,regular,700","Arbutus Slab:regular"]
       }
     });
   </script>
@@ -36,18 +36,18 @@
   </script>
 </head>
 <body>
-  <div class="w-nav navigation" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" class="w-nav navigation">
     <div class="w-container">
-      <a class="w-nav-brand brand-link" href="index.html"><img width="188" src="images/screvi-logo-color-01.png">
+      <a href="index.html" class="w-nav-brand brand-link"><img width="188" src="images/screvi-logo-color-01.png">
       </a>
-      <nav class="w-nav-menu nav-menu" role="navigation"><a class="w-nav-link nav-link" href="#features">Como Funciona</a>
+      <nav role="navigation" class="w-nav-menu nav-menu"><a href="#features" class="w-nav-link nav-link">Como Funciona</a>
       </nav>
       <div class="w-nav-button nav-link menu">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="w-slider slider" data-animation="slide" data-duration="500" data-infinite="1">
+  <div data-animation="slide" data-duration="500" data-infinite="1" class="w-slider slider">
     <div class="w-slider-mask">
       <div class="w-slide slide _1">
         <div class="w-container"></div>
@@ -67,7 +67,7 @@
     </div>
     <div class="w-slider-nav w-round"></div>
   </div>
-  <div class="w-section section main" id="top">
+  <div id="top" class="w-section section main-educadores">
     <div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-6">
@@ -85,10 +85,10 @@
         <div class="w-col w-col-6">
           <div class="w-form formulario">
             <form id="email-form" name="email-form" data-name="Email Form">
-              <input class="w-input" id="name" type="text" placeholder="Seu nome" name="name" data-name="Name">
-              <input class="w-input" id="email-2" type="email" placeholder="Seu email" name="email" data-name="Email 2" required="required">
-              <textarea class="w-input" id="field" placeholder="Digite sua redação" name="field" required="required"></textarea>
-              <input class="w-button w-hidden-main w-hidden-medium w-hidden-small w-hidden-tiny disabled" type="submit" value="Avaliação Grátis" data-wait="Aguarde..." wait="Aguarde...">
+              <input id="name" type="text" placeholder="Seu nome" name="name" data-name="Name" class="w-input">
+              <input id="email-2" type="email" placeholder="Seu email" name="email" data-name="Email 2" required="required" class="w-input">
+              <textarea id="field" placeholder="Digite sua redação" name="field" required="required" class="w-input"></textarea>
+              <input type="submit" value="Avaliação Grátis" data-wait="Aguarde..." wait="Aguarde..." class="w-button w-hidden-main w-hidden-medium w-hidden-small w-hidden-tiny disabled">
             </form>
             <div class="w-form-done">
               <p>Thank you! Your submission has been received!</p>
@@ -110,13 +110,13 @@
       </div>
     </div>
   </div>
-  <div class="w-section section" id="features">
+  <div id="features" class="w-section section">
     <div class="w-container">
       <h2>Correção em até 1 hora</h2>
       <div class="section-subtitle">Sabemos que você não pode esperar! Em até 1 hora lhe responderemos com a correção.</div>
       <div class="w-row small-features-row">
         <div class="w-col w-col-3">
-          <div class="feature"><img class="feature-icon" height="60" src="images/iconmonstr-control-panel-icon.svg">
+          <div class="feature"><img height="60" src="images/iconmonstr-control-panel-icon.svg" class="feature-icon">
             <h3>Aprendizado Adaptativo</h3>
             <p>Aprendemos com você:
               <br>plano de estudo
@@ -125,14 +125,14 @@
           </div>
         </div>
         <div class="w-col w-col-3">
-          <div class="feature"><img class="feature-icon" height="60" src="images/iconmonstr-sitemap-7-icon.svg">
+          <div class="feature"><img height="60" src="images/iconmonstr-sitemap-7-icon.svg" class="feature-icon">
             <h3>Corretores especializados</h3>
             <p>Sua redação será corrigida
               <br>por 2 ou mais profissionais qualificados. Um verdadeiro "raios-x" da sua redação!</p>
           </div>
         </div>
         <div class="w-col w-col-3">
-          <div class="feature"><img class="feature-icon" height="60" src="images/iconmonstr-bar-chart-4-icon.svg">
+          <div class="feature"><img height="60" src="images/iconmonstr-bar-chart-4-icon.svg" class="feature-icon">
             <h3>Acompanhe <br>sua evolução</h3>
             <p>Estatísticas e métricas
               <br>serão geradas, com
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="w-col w-col-3">
-          <div class="feature"><img class="feature-icon" height="60" src="images/iconmonstr-save-9-icon.svg">
+          <div class="feature"><img height="60" src="images/iconmonstr-save-9-icon.svg" class="feature-icon">
             <h3>Vídeo aulas <br>certas para você</h3>
             <p>Tenha acesso ao melhor conteúdo para aprimorar
               <br>sua competência de escrita de acordo com seus objetivos.&nbsp;</p>
@@ -159,12 +159,12 @@
     <div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-6">
-          <div class="logo-text footer">Fique por dentro</div>
-          <div class="footer-slogan">Inscreva-se em nossa newsletter</div>
+          <div class="subtitle hero-txt">Fique por dentro</div>
+          <div class="hero-form-subtitle">Inscreva-se em nossa newsletter</div>
           <div class="w-form newsletter-form">
-            <form class="w-clearfix" id="wf-form-newsletter" name="wf-form-newsletter" data-name="Newsletter">
-              <input class="w-input newsletter-field" id="email" type="email" placeholder="Endereço de email" name="email" data-name="Email" required="required">
-              <input class="w-button newsletter-button" type="submit" value="Assinar" data-wait="Wait..." wait="Wait...">
+            <form id="wf-form-newsletter" name="wf-form-newsletter" data-name="Newsletter" class="w-clearfix">
+              <input id="email" type="email" placeholder="Endereço de email" name="email" data-name="Email" required="required" class="w-input newsletter-field">
+              <input type="submit" value="Assinar" data-wait="Wait..." wait="Wait..." class="w-button newsletter-button">
             </form>
             <div class="w-form-done success-message">
               <p>Thank you! You’ll receive an email shortly.</p>
@@ -174,7 +174,7 @@
             </div>
           </div>
           <div class="social-icon-group">
-            <a class="w-inline-block social-icon" href="https://www.facebook.com/Foco-na-Escrita-1652960178314757/" target="_blank"><img src="images/facebook-icon.svg">
+            <a href="https://www.facebook.com/Foco-na-Escrita-1652960178314757/" target="_blank" class="w-inline-block social-icon"><img src="images/facebook-icon.svg">
             </a>
           </div>
         </div>

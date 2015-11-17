@@ -53,6 +53,7 @@ p {
 }
 .button {
   display: inline-block;
+  margin-top: 31px;
   margin-right: 14px;
   padding: 13px 23px;
   border-radius: 3px;
@@ -60,14 +61,15 @@ p {
   box-shadow: none;
   -webkit-transition: background-color 300ms ease, box-shadow 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, box-shadow 300ms ease, color 300ms ease;
-  font-family:'Roboto Slab', sans-serif;
+  font-family:'Open Sans', sans-serif;
   color: #489fd9;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
 }
 .button:hover {
-  background-color: #004b7e;
+  background-color: #489fd9;
   color: white;
 }
 .button.hollow {
@@ -89,7 +91,7 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.logo-text {
+.subtitle {
   display: block;
   margin-top: 24px;
   font-family:'Roboto Slab', sans-serif;
@@ -97,13 +99,14 @@ p {
   font-size: 27px;
   font-weight: 500;
 }
-.logo-text.footer {
-  width: 45%;
+.subtitle.hero-txt {
   margin-top: 0px;
   margin-bottom: 19px;
+  font-family:'Open Sans', sans-serif;
   color: #e6eaed;
   font-size: 24px;
   line-height: 36px;
+  font-weight: 300;
 }
 .navigation {
   position: fixed;
@@ -119,13 +122,18 @@ p {
   box-shadow: transparent 0px 3px 0px 0px inset;
   -webkit-transition: box-shadow 500ms ease, color 300ms ease;
   transition: box-shadow 500ms ease, color 300ms ease;
+  font-family:'Open Sans', sans-serif;
+  color: #7e7e7e;
+  font-weight: 600;
 }
 .nav-link:hover {
   box-shadow: rgba(181, 181, 181, 0.49) 0px 3px 0px 0px inset;
 }
 .nav-link.w--current {
   box-shadow: none;
+  font-family:'Open Sans', sans-serif;
   color: #489fd9;
+  font-weight: 600;
 }
 .section {
   padding-top: 70px;
@@ -134,17 +142,29 @@ p {
 .section.blue {
   background-color: #e3f3fc;
 }
-.section.main {
-  margin-top: 73px;
+.section.main-educadores {
+  margin-top: 93px;
+  padding-top: 42px;
   padding-bottom: 19px;
-  background-color: #127398;
-  background-image: url('../images/screvi-equipe-premiacao-.jpg');
-  background-position: 80% 50%;
-  background-size: 835px;
+  background-color: #127ca3;
+  background-image: url('../images/screvi-hero.jpg');
+  background-position: 50% 528%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 1;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px;
+}
+.section.main-educadores.image {
+  margin-top: 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url('../images/websiteteachers.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .section.grey {
   background-color: #f0f0f0;
@@ -165,6 +185,7 @@ p {
   padding-top: 19px;
   padding-bottom: 19px;
   background-color: #2b2c2e;
+  font-family:'Open Sans', sans-serif;
   color: #939596;
   font-size: 14px;
 }
@@ -174,7 +195,7 @@ p {
 .section.clients {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #127398;
+  background-color: #f2752b;
 }
 .section.press {
   padding-top: 29px;
@@ -205,10 +226,12 @@ p {
   line-height: 26px;
   font-weight: 300;
 }
-.footer-slogan {
+.hero-form-subtitle {
   margin-top: 53px;
   margin-bottom: 11px;
+  font-family:'Open Sans', sans-serif;
   color: white;
+  font-weight: 600;
 }
 .social-icon {
   margin-right: 11px;
@@ -251,13 +274,16 @@ p {
   border-bottom-color: white;
 }
 .newsletter-field {
-  width: 60%;
+  width: 66%;
   height: 40px;
+  margin-right: 0px;
   float: left;
   border: 1px solid transparent;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   background-color: #e8e8e8;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 600;
 }
 .newsletter-field:focus {
   border-width: 1px;
@@ -265,17 +291,21 @@ p {
   box-shadow: #489fd9 0px 0px 6px 0px;
 }
 .newsletter-button {
-  width: 40%;
+  width: 34%;
   height: 40px;
+  margin-left: 0px;
   padding-top: 9px;
   padding-bottom: 9px;
+  padding-left: 15px;
   float: left;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
-  background-color: #cf742e;
+  background-color: #f2752b;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  font-family:'Open Sans', sans-serif;
   color: white;
+  font-weight: 600;
 }
 .newsletter-button:hover {
   background-color: #489fd9;
@@ -285,6 +315,7 @@ p {
   width: 70%;
 }
 .brand-link {
+  margin-top: 23px;
   text-decoration: none;
 }
 .success-message {
@@ -299,8 +330,8 @@ p {
 }
 .section-subtitle {
   margin-bottom: 68px;
-  font-size: 19px;
-  line-height: 22px;
+  font-size: 21px;
+  line-height: 25px;
   font-weight: 300;
   text-align: center;
 }
@@ -415,6 +446,7 @@ p {
 }
 .small-text {
   padding-bottom: 16px;
+  font-family:'Open Sans', sans-serif;
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-weight: 300;
@@ -443,6 +475,14 @@ p {
   padding-bottom: 21px;
   color: white;
 }
+.mobile-container {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.cta {
+  font-size: 45px;
+  font-weight: 700;
+}
 html.w-mod-js *[data-ix="fade-in-on-load"] {
   opacity: 0;
   -webkit-transform: translate(0px, 24px);
@@ -463,8 +503,8 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
     font-size: 14px;
     line-height: 18px;
   }
-  .logo-text.footer {
-    width: 56%;
+  .subtitle.hero-txt {
+    font-size: 21px;
   }
   .nav-link {
     padding: 18px 0px;
@@ -485,10 +525,24 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
     background-color: black;
     color: white;
   }
+  .section {
+    padding-top: 44px;
+    padding-bottom: 38px;
+  }
+  .section.main-educadores.image {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
   .nav-menu {
     padding-top: 13px;
     padding-bottom: 13px;
     background-color: black;
+  }
+  .newsletter-button {
+    width: 42%;
+  }
+  .section-subtitle {
+    font-size: 17px;
   }
   .main-feature-group {
     margin-top: 0px;
@@ -496,13 +550,26 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   .main-image {
     margin-top: 49px;
   }
+  .cta {
+    font-size: 38px;
+  }
 }
 @media (max-width: 767px) {
+  h2 {
+    font-size: 21px;
+    line-height: 32px;
+  }
   h3 {
     margin-bottom: 8px;
   }
-  .logo-text {
+  .subtitle {
     margin-top: 15px;
+  }
+  .subtitle.hero-txt {
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 1px;
+    font-size: 20px;
   }
   .nav-link.menu {
     padding-top: 11px;
@@ -511,14 +578,18 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   .section {
     padding-top: 43px;
     padding-bottom: 43px;
+    padding-left: 15px;
     text-align: center;
   }
-  .section.main {
+  .section.main-educadores {
     margin-top: 51px;
   }
   .nav-menu {
     padding-right: 12px;
     padding-left: 12px;
+  }
+  .hero-form-subtitle {
+    margin-top: 21px;
   }
   .footer-title {
     margin-top: 35px;
@@ -528,8 +599,12 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
     margin-right: auto;
     margin-left: auto;
   }
+  .brand-link {
+    margin-top: 13px;
+  }
   .section-subtitle {
     margin-bottom: 44px;
+    font-size: 18px;
   }
   .plan-wrapper {
     margin-right: 5%;
@@ -550,38 +625,53 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
     margin-top: 0px;
     margin-bottom: 34px;
   }
+  .cta {
+    font-size: 31px;
+  }
 }
 @media (max-width: 479px) {
   h2 {
     font-size: 23px;
     line-height: 30px;
   }
-  .logo-text.footer {
+  .subtitle.hero-txt {
     width: 100%;
-    font-size: 17px;
+    padding-right: 21px;
+    padding-left: 21px;
+    font-size: 21px;
     line-height: 26px;
   }
   .section {
     margin-left: 0px;
     padding-left: 0px;
   }
-  .section.main {
-    padding-top: 120px;
+  .section.main-educadores {
+    padding-top: 63px;
     padding-bottom: 27px;
     background-position: 50% 50%;
     background-size: cover;
   }
+  .section.main-educadores.image {
+    padding-top: 43px;
+    padding-bottom: 39px;
+  }
   .main-subtitle {
     font-size: 16px;
   }
-  .footer-slogan {
+  .hero-form-subtitle {
     margin-top: 28px;
+    padding-right: 34px;
+    padding-left: 34px;
+    font-size: 16px;
   }
   .newsletter-field {
     width: 99%;
   }
   .newsletter-button {
     width: 99%;
+  }
+  .brand-link {
+    margin-top: 12px;
   }
   .main-heading {
     font-size: 28px;
@@ -607,6 +697,9 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
   .mobile-container {
     padding-right: 16px;
     padding-left: 16px;
+  }
+  .cta {
+    font-size: 31px;
   }
 }
 

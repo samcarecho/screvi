@@ -2928,7 +2928,7 @@
 	  var win = window;
 	  var loc = win.location;
 	  var history = inIframe() ? null : win.history;
-	  var validHash = /^[a-zA-Z][\w:.-]*$/;
+	  var validHash = /^[a-zA-Z0-9][\w:.-]*$/;
 
 	  function inIframe() {
 	    try {
