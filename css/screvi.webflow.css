@@ -147,7 +147,6 @@ p {
   padding-top: 42px;
   padding-bottom: 19px;
   background-color: #127ca3;
-  background-image: url('../images/screvi-hero.jpg');
   background-position: 50% 528%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,7 +159,6 @@ p {
   margin-top: 0px;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: url('../images/websiteteachers.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,7 +168,6 @@ p {
   background-color: #f0f0f0;
 }
 .section.image {
-  background-image: url('../images/town.jpg');
   background-position: 50% 50%;
   background-size: cover;
   color: white;
